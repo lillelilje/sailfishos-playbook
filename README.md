@@ -1,4 +1,4 @@
-# Sailfish OS development — one girl's playbook
+# Sailfish OS development... One girl's playbook
 
 This is **one girl's attempt** to write down a clear playbook for making **compliant, functional
 Sailfish OS apps** for people to read and for LLMs to follow directly as a working reference. It
