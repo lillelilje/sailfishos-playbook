@@ -1,7 +1,7 @@
 # Sailfish OS development — one girl's playbook
 
 This is **one girl's attempt** to write down a clear playbook for making **compliant, functional
-Sailfish OS apps** — for people to read and for LLMs to follow directly as a working reference. It
+Sailfish OS apps** for people to read and for LLMs to follow directly as a working reference. It
 is not official Jolla documentation, not a tutorial, and not a complete map of the platform: it is
 the distillation of building and shipping several apps to a real **Jolla Phone 2026**
 (**FinTube**, **Kibble**, **Dollfin**, **Emojinal Support**, **Nekofish**).
