@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sailfish app icon master — copy to icons/icon-master.svg and render with make-icons.sh.
+  See 15-icons-and-art.md.
+
+  Canvas 86x86, art boundary 85.4 (0.3 gap on each side, Jolla's template).
+  Swap exactly three things: the base shape, its fill, the glyph. Nothing else.
+  Styles that break the look: text, strokes under 2 units, shadows, 3+ hues, hairlines.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86">
+
+  <!-- BASE SHAPE — keep one, delete the rest. Rounded corners use radius 42.7 = half the side. -->
+  <!-- leaf: two opposite corners rounded -->
+  <path fill="#0D955E" d="M84.277.3H43C19.417.3.3 19.418.3 43v41.277c0 .786.637 1.423 1.423 1.423H43c23.583 0 42.7-19.118 42.7-42.7V1.723C85.7.937 85.063.3 84.277.3z"/>
+  <!-- circle      <circle cx="43" cy="43" r="42.7" fill="#0D955E"/> -->
+  <!-- soft square <rect x=".3" y=".3" width="85.4" height="85.4" rx="14" fill="#0D955E"/> -->
+
+  <!-- SECOND TONE (optional, same hue, lighter) — delete if the glyph is already busy -->
+  <circle cx="43" cy="43" r="23.5" fill="#35B68E"/>
+
+  <!-- GLYPH — placeholder: three bars. Replace with 2-6 primitives of the app's own metaphor.
+       Light tone, centred in the middle ~50 units, no stroke thinner than 2. -->
+  <g fill="#F7F6E7">
+    <rect x="31" y="34" width="24" height="4.6" rx="2.3"/>
+    <rect x="31" y="41.2" width="24" height="4.6" rx="2.3"/>
+    <rect x="31" y="48.4" width="14" height="4.6" rx="2.3"/>
+  </g>
+
+</svg>
